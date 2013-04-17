@@ -1,12 +1,12 @@
-nginx.conf for shookai.org 
-==========================
+nginx.conf for dev.shokai.org
+=============================
 
-install nginx 1.3.14
+install nginx
 
-    % brew install nginx --devel
+    % sudo apt-get install nginx
 
 config
 
-    % ln -s /Users/sho/etc/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf
-    % ln -s /Users/sho/etc/nginx/apps /usr/local/etc/nginx/apps
-    % ln -s /Users/sho/etc/nginx/includes /usr/local/etc/nginx/includes
+    % ln -s /home/sho/etc/nginx/nginx.conf /etc/nginx/nginx.conf
+    % ln -s /home/sho/etc/nginx/apps /etc/nginx/apps
+    % ln -s /home/sho/etc/nginx/includes /etc/nginx/includes
